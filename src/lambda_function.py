@@ -16,9 +16,10 @@ def get_daily_verse():
 
 def create_message(verse):
     return (
-        f"Good morning ☀️\n"
-        f"{verse['text']}\n"
-        f"— {verse['reference']}"
+        f"🍞 Daily Bread\n\n"
+        f"{verse['text']}\n\n"
+        f"— {verse['reference']}\n\n"
+        f"Purpose & Power. 🤍"
     )
 
 
